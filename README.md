@@ -9,8 +9,8 @@
 Unity로 제작된 한국 전통건축 관련 국가 사업입니다.
 영상과 간단한 게임 및 AR 컨텐츠로 여러가지 전통건축 관련 지식을 습득할 수 있는 프로젝트입니다.
 
-<img width="40%" src="https://user-images.githubusercontent.com/90584581/196893974-9d50e54d-d57d-445e-9de4-a610a01a3765.jpg"/>  <img width="40%" src="https://user-images.githubusercontent.com/90584581/196894339-be235f44-e507-4408-b5b9-2b7a5b64daff.jpg"/>
-<img width="40%" src="https://user-images.githubusercontent.com/90584581/196894342-ec718db8-78e6-480b-a509-1b15faa6f47a.jpg"/>  <img width="40%" src="https://user-images.githubusercontent.com/90584581/196894325-63905dd4-5658-4a58-8704-8a2fcf3e5537.jpg"/>
+<img width="40%" src="https://user-images.githubusercontent.com/90584581/196897583-34eea8bc-2a72-42fa-a415-78c7281771d9.jpg"/>  <img width="40%" src="https://user-images.githubusercontent.com/90584581/196897592-f75447c3-71ba-4221-a34e-bf7340b2a723.jpg"/>
+<img width="40%" src="https://user-images.githubusercontent.com/90584581/196897598-ede2a9fb-5aa6-4556-951a-8e6e9782af10.jpg"/>  <img width="40%" src="https://user-images.githubusercontent.com/90584581/196897601-632103d2-4850-4030-9c56-73eb8f73a1f0.jpg"/>
 
 ### 프로젝트 투입 인원
 개발자 2, 디자이너 1
