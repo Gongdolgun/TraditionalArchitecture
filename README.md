@@ -1,1 +1,1 @@
-# KoreaArchitecture
+# TraditionalArchitecture
