@@ -23,6 +23,4 @@ Unity로 제작된 한국 전통건축 관련 국가 사업입니다.
 - 애니메이션 및 비주얼 이펙트 제작
 - AR 컨텐츠 기능 구현
 
-### 핵심 코드
-
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=footer)
