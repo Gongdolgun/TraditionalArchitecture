@@ -29,4 +29,80 @@ Unity로 제작된 한국 전통건축 관련 국가 사업입니다.
 - 애니메이션 및 비주얼 이펙트 제작
 - AR 컨텐츠 기능 구현
 
+### [핵심 코드]
+이 프로젝트는 3개의 Scene으로 나눠서 진행됩니다.\
+Video Scene, AR Scene, Painting Scene 이렇게 3가지로 나뉩니다.
+
+#### Video Scene의 핵심 코드
+persistantDataPath의 URL에 따라 해당 비디오파일을 읽어 재생합니다.
+
+    ```
+    public void VideoPlay(int index)
+    {
+        VP.url = Application.persistentDataPath + VideoURL[index];
+        if (System.IO.File.Exists(VP.url))
+        { 
+            UIcanvas.SetActive(false);
+            Videocanvas.SetActive(true);
+            slider.clipIndex = index;
+            VP.frame = 0;
+            VP.Play();
+            VC.PlayBtnPressed();
+        }
+        else
+        {
+            UIcanvas.SetActive(false);
+            VideoExists.SetActive(true);
+        }
+    }
+    ```
+    
+#### AR SCene의 핵심 코드
+AR에서 핵심은 트래킹과 초기화라고 생각합니다. 이 코드는 트래킹 되었을 때와 안되었을 때 초기화 되는 코드입니다.
+
+    ```
+    public class ImageTrackableBehaviour : AbstractImageTrackableBehaviour
+    {
+		public override void OnTrackSuccess(string id, string name, Matrix4x4 poseMatrix)
+        {
+			Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
+			Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
+			// Enable renderers
+			foreach (Renderer component in rendererComponents)
+			{
+				component.enabled = true;
+			}
+
+			// Enable colliders
+			foreach (Collider component in colliderComponents)
+			{
+				component.enabled = true;
+			}
+
+			transform.position = MatrixUtils.PositionFromMatrix(poseMatrix);
+			transform.rotation = MatrixUtils.QuaternionFromMatrix(poseMatrix);
+
+			Debug.Log(transform.position);
+        }
+
+        public override void OnTrackFail()
+        {
+			Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
+			Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
+
+			// Disable renderer
+			foreach (Renderer component in rendererComponents)
+			{
+				component.enabled = false;
+			}
+
+			// Disable collider
+			foreach (Collider component in colliderComponents)
+			{
+				component.enabled = false;
+			}
+        }
+    }
+    ```
+
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=footer)
