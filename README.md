@@ -8,6 +8,9 @@
 ### [기술 스택]
 <img src="https://img.shields.io/badge/Unity-000000?style=flat-square&logo=Unity&logoColor=white"/>  <img src="https://img.shields.io/badge/C Sharp-239120?style=flat-square&logo=C Sharp&logoColor=white"/>  <img src="https://img.shields.io/badge/MAXSTAR-00A98F?style=flat-square&logo=Monzo&logoColor=white"/>  <img src="https://img.shields.io/badge/Synology-B5B5B6?style=flat-square&logo=Synology&logoColor=white"/>
 
+### [아키텍처]
+<img width="80%" src="https://user-images.githubusercontent.com/90584581/197387520-19b892ca-65f2-421d-8a24-f7e5185ecfd3.png"/>
+
 ### [프로젝트 내용]
 Unity로 제작된 한국 전통건축 관련 국가 사업입니다.
 영상과 간단한 게임 및 AR 컨텐츠로 여러가지 전통건축 관련 지식을 습득할 수 있는 프로젝트입니다.
