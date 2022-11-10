@@ -12,7 +12,7 @@
 <img width="80%" src="https://user-images.githubusercontent.com/90584581/197387520-19b892ca-65f2-421d-8a24-f7e5185ecfd3.png"/>
 
 ### [프로젝트 내용]
-Unity로 제작된 한국 전통건축 관련 국가 사업입니다.
+Unity로 제작된 한국 전통건축 관련 국가 사업입니다.\
 영상과 간단한 게임 및 AR 컨텐츠로 여러가지 전통건축 관련 지식을 습득할 수 있는 프로젝트입니다.
 
 <img width="40%" src="https://user-images.githubusercontent.com/90584581/196897583-34eea8bc-2a72-42fa-a415-78c7281771d9.jpg"/>  <img width="40%" src="https://user-images.githubusercontent.com/90584581/197323543-7abdee34-07c4-4a4c-804c-1e66ea54121c.png"/>
